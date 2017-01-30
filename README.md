@@ -1,10 +1,10 @@
-[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/autonzb.svg)](https://hub.docker.com/r/rubygem/autonzb/)
-[![Docker Build](https://img.shields.io/docker/automated/rubygem/autonzb.svg)](https://hub.docker.com/r/rubygem/autonzb/)
-[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/autonzb.svg)](https://hub.docker.com/r/rubygem/autonzb/)
-[![Gem Downloads](https://img.shields.io/gem/dt/autonzb.svg)](https://rubygems.org/gems/autonzb/)
-# autonzb
+[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/AutoNZB.svg)](https://hub.docker.com/r/rubygem/AutoNZB/)
+[![Docker Build](https://img.shields.io/docker/automated/rubygem/AutoNZB.svg)](https://hub.docker.com/r/rubygem/AutoNZB/)
+[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/AutoNZB.svg)](https://hub.docker.com/r/rubygem/AutoNZB/)
+[![Gem Downloads](https://img.shields.io/gem/dt/AutoNZB.svg)](https://rubygems.org/gems/AutoNZB/)
+# AutoNZB
 
-Auto-Generated Docker image for autonzb to allow simple usage without installation.
+Auto-Generated Docker image for AutoNZB to allow simple usage without installation.
 It is in sync with the original gem.
 
 This allows to use a specific version of your favorite gem and ensures that this image will be supported in future.
@@ -17,11 +17,11 @@ It lets you use Ruby Tools without the need to install ruby on your machine.
 
 Usage via file system:
 
-`docker run -v $(pwd):/work -ti docker-gems/autonzb`
+`docker run -v $(pwd):/work -ti docker-gems/AutoNZB`
 
 Usage via Pipe:
 
-`echo "test" | docker run -ti docker-gems/autonzb`
+`echo "test" | docker run -ti docker-gems/AutoNZB`
 
 It depends on your specific use case how your want to use it.
 
@@ -31,11 +31,11 @@ For extension, it could be used as base image.
 
 So instead of struggeling with the installation of a gem, just write
 
-`FROM docker-gems/autonzb`
+`FROM docker-gems/AutoNZB`
 
 Then add the customization.
 
 ## References
 
  - [Overview over other rubygem docker images](https://github.com/thinkbot/docker-rubygem)
- - [Gem](https://rubygems.org/gems/autonzb/)
+ - [Gem](https://rubygems.org/gems/AutoNZB/)
